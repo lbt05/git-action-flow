@@ -81,7 +81,7 @@ on:
 
 jobs:
   build-image:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment:
       name: ${{ inputs.deployment_env }}
       url: ${{ inputs.deployment_url }}
